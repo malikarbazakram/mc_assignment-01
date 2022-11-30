@@ -18,9 +18,43 @@
     justify-content: center;
     align-content: center;
     text-align: center;
+    align-items: center;
     height: 70vh;
+    background-color: rgba(195, 190, 190, 0.753);
 }
 
 .heading > h1{
     margin-bottom: 2rem;
 }
+
+.heading > p{
+    width: 40rem;
+}
+
+.difference{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:  flex-start;
+    height: 20rem;
+    padding-left: 2rem;
+    background-color: rgba(195, 190, 190, 0.114);
+}
+
+.difference > h4{
+    font-size: xx-large;
+    margin-bottom: 2rem;
+}
+
+
+.difference > ul{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    display: flex;
+    width: 90vw;
+}
+
+#liEnd{
+    margin-left: 17rem;
+}
+
