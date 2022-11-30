@@ -52,16 +52,41 @@
     </div>
 
     <div class="steps2">
-        <h1 style="padding-left: 2rem; padding-top: 1.5rem;">Command : git init</h1>
+        <h1 style="padding-left: 2rem; padding-top: 1.5rem;">Command : git add</h1>
         <div class="sidebyside">
-            <b class="centerText"><p > The git init command is the first command that you will run on Git.
-                 The git init command is used to create a new blank repository. 
-                 It is used to make an existing project as a Git project. 
-                 Several Git commands run inside the repository, but init command can be run 
-                 outside of the repository.
+            <b class="centerText"><p > The git add command is used to add file contents to the Index (Staging Area).
+                This command updates the current content of the working tree to the staging area.
+                 It also prepares the staged content for the next commit. 
+                 Every time we add or update any file in our project, it is required to forward updates
+                  to the staging area.
 
             </p></b>
-            <img class="imageClass" src="images/init.png" alt="">
+            <img class="imageClass" src="images/add.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="steps1">
+        <h1 style="padding-left: 2rem; padding-top: 1.5rem;">Command : git commit</h1>
+        <div class="sidebyside">
+            <b class="centerText"><p >  Create a new commit containing the current contents of the index and
+                the given log message describing the changes. The new commit is a direct child of HEAD, 
+                usually the tip of the current branch, and the branch is updated to point to it
+
+            </p></b>
+            <img class="imageClass" src="images/commit.png" alt="">
+        </div>
+    </div>
+
+    <div class="steps2">
+        <h1 style="padding-left: 2rem; padding-top: 1.5rem;">Command : git status</h1>
+        <div class="sidebyside">
+            <b class="centerText"><p > 
+                 The git status command is used to display the state of the repository and staging area. 
+                 It allows us to see the tracked, untracked files and changes. This command will not show 
+                 any commit records or information.
+            </p></b>
+            <img class="imageClass" src="images/status.png" alt="">
         </div>
     </div>
 
