@@ -58,3 +58,34 @@
     margin-left: 17rem;
 }
 
+.steps2{
+    height:100vh;
+    background-color: #bebdb8;
+}
+
+.steps1{
+    height:70vh;
+    background-color: #3e424b;
+    color: white;
+}
+
+.sidebyside{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imageClass{
+
+    width: 50%;
+    margin-right: 2.5rem;
+}
+
+.sidebyside > p{
+    margin-left: 2rem;
+    margin-top: 3rem;
+    height: 40vh;
+    width: 35%;
+    border-radius: 5px;
+    border: 5px solid lightgray;
+}
