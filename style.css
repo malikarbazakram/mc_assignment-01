@@ -44,6 +44,7 @@
 .difference > h4{
     font-size: xx-large;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 
@@ -59,7 +60,7 @@
 }
 
 .steps2{
-    height:100vh;
+    height:70vh;
     background-color: #bebdb8;
 }
 
@@ -77,25 +78,26 @@
 
 .imageClass{
 
-    width: 50%;
+    width: 45%;
     margin-right: 2.5rem;
 }
 
 .sidebyside > b{
     margin-left: 2rem;
-    margin-top: 3rem;
+    margin-top: 1.4rem;
     height: 40vh;
-    width: 35%;
+    width: 40%;
     border-radius: 5px;
     border: 5px solid lightgray;
     
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: x-large;
+    font-size: large;
     text-align: justify;
+    padding: 1rem 2.5rem;
 }
 
 .centerText:hover > p{
-    scale: 1.2;
+    scale: 1.1;
 }
